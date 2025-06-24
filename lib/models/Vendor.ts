@@ -29,6 +29,10 @@ const VendorSchema = new mongoose.Schema({
   zipCode: {
     type: String,
   },
+  userEmail: {
+    type: String,
+    required: true,
+  },
 }, {
   timestamps: true,
 })
